@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main >
+    <main>
       <div className="mx-auto flex relative  max-w-8xl items-center flex-col  p-6 lg:px-8 ">
         <h1 className="text-5xl text-center font-bold pt-[100px]">
           We’re a full-range <br />
@@ -37,7 +37,7 @@ export default function Home() {
           Follow us - Facebook / Linkedin / Instagram
         </h1>
 
-        <RecentWork/>
+        <RecentWork />
 
         <Image
           className="absolute	top-[200px] -z-10 bg-blend-screen"
