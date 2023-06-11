@@ -70,7 +70,7 @@ const WeOffer = () => {
           className="mySwiper"
         >
           {arr.map((name) => (
-            <SwiperSlide>
+            <SwiperSlide key={name}>
               <div style={myStyle}>
                 <div
                   className="w-[240px] h-[200px] m-auto mt-5
