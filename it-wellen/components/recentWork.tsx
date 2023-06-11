@@ -12,6 +12,7 @@ const RecentWork = () => {
     border: "1px solid rgba(108, 108, 108, 0.3)",
   };
   return (
+    <>
     <div className="flex justify-between gap-5 mt-40 flex-wrap 	">
       <div style={myStyle} className=" w-full md:w-[400px] h-[600px]">
         <div className="relative h-[70%] w-full  ">
@@ -58,6 +59,7 @@ const RecentWork = () => {
             <Image
               src={"/images/Golden-posst 2.png"}
               alt="it-wellen"
+              // style={{width:'500px',height:'200px'}}
               width={250}
               height={200}
               className="rounded-l-3xl
@@ -122,6 +124,10 @@ const RecentWork = () => {
         </div>
       </div>
     </div>
+    <button className="bg-white rounded-xl text-black font-bold py-3 w-[250px] md:w-[300px] md:mt-5">Browse all work</button>
+
+    </>
+
   );
 };
 

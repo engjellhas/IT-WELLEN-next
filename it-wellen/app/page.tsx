@@ -56,7 +56,7 @@ export default function Home() {
           Follow us - Facebook / Linkedin / Instagram
         </h1>
 
-        <RecentWork />
+        <RecentWork />  
 
         <Image
           className="absolute	top-[200px] -z-10 bg-blend-screen"
