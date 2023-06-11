@@ -6,8 +6,8 @@ const FollowMouseDiv = () => {
 
   useEffect(() => {
     const handleMouseMove = (event: MouseEvent) => {
-      const { pageX, pageY } = event;
-      setMousePosition({ x: pageX, y: pageY });
+      const { clientX, clientY } = event;
+      setMousePosition({ x: clientX, y: clientY });
     };
 
     window.addEventListener("mousemove", handleMouseMove);

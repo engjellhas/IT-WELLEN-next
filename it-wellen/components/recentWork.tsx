@@ -4,12 +4,12 @@ import Link from "next/link";
 
 const RecentWork = () => {
   const myStyle = {
-    background: "rgba(108, 108, 108, 0.2)",
+    background: "rgba(33, 33, 35, 0.4)",
     borderRadius: "16px",
     boxShadow: "0 4px 30px rgba(0, 0, 0, 0.1)",
     backdropFilter: "blur(5px)",
     WebkitBackdropFilter: "blur(5px)",
-    border: "1px solid rgba(108, 108, 108, 0.3)",
+    border: "1px solid #212123",
   };
   return (
     <>
@@ -124,7 +124,7 @@ const RecentWork = () => {
         </div>
       </div>
     </div>
-    <button className="bg-white rounded-xl text-black font-bold py-3 w-[250px] md:w-[300px] md:mt-5">Browse all work</button>
+    <button className="bg-white rounded-2xl text-black font-bold py-3 w-[250px] md:w-[200px] md:mt-5">Browse all work</button>
 
     </>
 
