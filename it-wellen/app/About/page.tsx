@@ -2,7 +2,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>Engjell</div>
+    <div>Engjell test</div>
   )
 }
 
